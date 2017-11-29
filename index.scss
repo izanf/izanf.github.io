@@ -1,0 +1,10 @@
+// Fonts
+@font-face {
+  font-family: Dosis-Regular;
+  src: url(./../fonts/Dosis-Regular.ttf);
+  font-weight: 400;
+}
+
+// Stylesheets
+@import './font-awesome.min.css';
+@import './assets/css/main.scss';
