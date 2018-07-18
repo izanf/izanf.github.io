@@ -4,7 +4,7 @@
   "description": "izanf portfólio",
   "main": "index.html",
   "scripts": {
-    "start": "watch-css",
+    "start": "http-server ./ 8080",
     "build-css": "node-sass index.scss ./assets/css/index.css --output-style compressed",
     "watch-css": "node-sass index.scss ./assets/css/index.css --watch --output-style compressed",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -26,6 +26,8 @@
   },
   "homepage": "https://github.com/izanf/izanf.github.io#readme",
   "devDependencies": {
+    "http-server": "^0.11.1",
     "node-sass": "^4.7.2"
-  }
+  },
+  "dependencies": {}
 }
