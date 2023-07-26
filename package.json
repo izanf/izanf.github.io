@@ -1,7 +1,7 @@
 {
   "name": "izanf.github.io",
   "version": "1.0.0",
-  "description": "izanf portfólio",
+  "description": "Izanderson Florencio - Página pessoal",
   "main": "index.html",
   "scripts": {
     "start": "http-server ./ 8080",
@@ -17,7 +17,7 @@
     "izanf",
     "front-end",
     "developer",
-    "pleno"
+    "senior"
   ],
   "author": "izanf",
   "license": "ISC",
@@ -26,8 +26,8 @@
   },
   "homepage": "https://github.com/izanf/izanf.github.io#readme",
   "devDependencies": {
-    "http-server": "^0.11.1",
-    "node-sass": "^4.7.2"
+    "http-server": "^14.1.1",
+    "node-sass": "^9.0.0"
   },
   "dependencies": {}
 }
