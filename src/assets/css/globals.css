@@ -1,7 +1,15 @@
 @import "tailwindcss";
 
+* {
+  scroll-behavior: smooth;
+}
+
 html, body {
   @apply h-full;
+}
+
+body > div {
+  height: 100%;
 }
 
 h2 {
@@ -10,10 +18,6 @@ h2 {
 
 h3 {
   @apply text-gray-900 text-lg font-semibold;
-}
-
-p, span, strong {
-  @apply text-gray-600;
 }
 
 a {

@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { About, Blog, Projects, Experience } from "@/components";
+import { About, Blog, Projects, Experience, Navbar } from "@/components";
 
 export default function Home() {
   return (
@@ -11,15 +11,18 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <main className="bg-gray-50">
-        <About />
-        <Blog />
-        <Projects />
-        <Experience />
-      </main>
-      <footer>
-        futer
-      </footer>
+      <div className="flex h-full">
+        <Navbar />
+        <main className="bg-gray-50 overflow-auto">
+          <About />
+          <Blog />
+          <Projects />
+          {/* <Experience /> */}
+          <footer>
+            futer
+          </footer>
+        </main>
+      </div>
     </>
   );
 }

@@ -7,17 +7,17 @@ import { ExperienceType } from "./types";
 
 export default function Experience() {
   const renderExperience = ({ position, company, startDate, endDate, description, activities }: ExperienceType, xpIndex) => (
-    <li className="pb-6">
-      <h3>{position}</h3>
-      <h4>{company}</h4>
+    <li className="pb-6 not-first:pt-6 not-last:border-b-1 border-gray-300">
+      <h3>{position} <span className="text-gray-600 font-normal text-sm">({formatDate(startDate)} - {formatDate(endDate)})</span></h3>
+      <h4 className="text-gray-600">{company}</h4>
       <p className="py-2">{description}</p>
       <p className="font-semibold">Activities</p>
-      <ul className="list-decimal">
+      <ul className="list-decimal ml-6">
         {activities.map((activity, activityIndex) => (
           <li key={xpIndex+activityIndex}><p>{activity}</p></li>
         ))}
       </ul>
-      <p>{formatDate(startDate)} - {formatDate(endDate)}</p>
+      <p></p>
     </li>
   )
 
