@@ -12,7 +12,7 @@ export default function ProjectCard({ image, name, wide, tall }: ProjectCardProp
 
   return (
     <li className={classes}>
-      <Image src={image} alt={name} width={400} height={400} className="w-full h-full object-cover" />
+      <Image src={image} alt={name} width={600} height={600} className="w-full h-full object-cover" />
       <div className="bg-g">
         
       </div>
