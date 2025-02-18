@@ -11,7 +11,7 @@ export default function Navbar() {
         <li><Link href="#projects">Projects</Link></li>
         <li><Link href="/curriculo">Curriculo</Link></li>
       </ul>
-      <p className="py-4 text-gray-400"><strong>GPG:</strong> aaaa</p>
+      <p className="py-4 text-gray-400"><strong>GPG:</strong> 79DF17D99441B33A</p>
     </nav>
   );
 }
