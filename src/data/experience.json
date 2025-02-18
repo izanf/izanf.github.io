@@ -1,0 +1,24 @@
+[
+  {
+    "company": "NYX IDC",
+    "position": "Founder",
+    "startDate": "2013-01-01",
+    "endDate": "2016-06-01",
+    "description": "Without opportunities to work with software in Natal-RN, I've started this project to deliver host solutions to Brazilian small companies.",
+    "activities": [
+      "I've automated the flow to handle 100% automated the services from purchase to sending product credentials and renewal using WHMCS, PHP, JQuery, CSS, VMWare, CPanel, MySQL and other technologies.",
+      "Learning about how to improve our leads acquisition, I've developed a few strategies using SEO and Google Adwords, which improved our sales and made the company profitable.",
+      "Since I worked alone, I was also in charge of customer service and technical support."
+    ]
+  },
+  {
+    "company": "Getty/IO",
+    "position": "Frontend Developer",
+    "startDate": "2017-04-01",
+    "endDate": "2018-03-01",
+    "description": "Getty was a software boutique with an excellent team of developers, ever focused to deliver high quality software, mainly with blockchain technologies.",
+    "activities": [
+      "We developed multiple solutions to the most different segments like Healthy, Travel, Cars Rental and SaaS. Ever using the JS stack, like React, React Native and NodeJS."
+    ]
+  }
+]

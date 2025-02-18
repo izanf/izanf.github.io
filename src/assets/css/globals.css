@@ -1,0 +1,21 @@
+@import "tailwindcss";
+
+html, body {
+  @apply h-full;
+}
+
+h2 {
+  @apply text-gray-900 text-2xl font-bold;
+}
+
+h3 {
+  @apply text-gray-900 text-lg font-semibold;
+}
+
+p, span, strong {
+  @apply text-gray-600;
+}
+
+a {
+  @apply text-sky-600 hover:text-sky-800;
+}
