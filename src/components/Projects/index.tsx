@@ -1,15 +1,10 @@
 import Section from "../Section";
 
+import type { ProjectType } from './types';
+
 import { projects } from '@/data';
 
 import ProjectCard from './ProjectCard';
-
-type ProjectType = {
-  name: string;
-  description: string;
-  image: string;
-  url: string;
-}
 
 export default function Projects() {
   return (

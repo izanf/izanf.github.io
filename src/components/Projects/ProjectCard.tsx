@@ -1,9 +1,8 @@
 import Image from "next/image";
 
-interface ProjectCardProps {
-  image: string;
-  name: string;
-  year: number;
+import type { ProjectType } from './types';
+
+interface ProjectCardProps extends ProjectType {
   wide?: boolean;
   tall?: boolean;
 }

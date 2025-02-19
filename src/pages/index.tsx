@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { About, Articles, Projects, Navbar, Footer } from "@/components";
+import { About, Projects, Navbar, Footer } from "@/components";
 
 export default function Home() {
   return (
