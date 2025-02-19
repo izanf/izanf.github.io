@@ -1,6 +1,6 @@
 import Head from "next/head";
 
-import { About, Blog, Projects, Navbar } from "@/components";
+import { About, Blog, Projects, Navbar, Footer } from "@/components";
 
 export default function Home() {
   return (
@@ -18,9 +18,7 @@ export default function Home() {
           <Blog />
           <Projects />
           {/* <Experience /> */}
-          <footer>
-            futer
-          </footer>
+          <Footer />
         </main>
       </div>
     </>
