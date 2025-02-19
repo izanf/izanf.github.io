@@ -10,14 +10,19 @@ html, body {
 
 body > div {
   height: 100%;
+  @apply bg-gray-100;
+}
+
+h1 {
+  @apply text-3xl font-bold;
 }
 
 h2 {
-  @apply text-gray-900 text-2xl font-bold;
+  @apply text-2xl font-bold;
 }
 
 h3 {
-  @apply text-gray-900 text-lg font-semibold;
+  @apply text-lg font-semibold;
 }
 
 a {

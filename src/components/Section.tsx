@@ -5,7 +5,13 @@ interface SectionProps {
 }
 
 export default function Section({ id, className, children }: SectionProps) {
-  const styles = `py-12 px-8${className ? ` ${className}` : ''}`;
+  const styles = `px-8${className ? ` ${className}` : ''}`;
 
-  return <section id={id} className={styles}>{children}</section>;
+  return (
+    <section id={id} className={styles}>
+      <div className="border-b-1 border-gray-300 py-12 text-gray-600">
+        {children}
+      </div>
+    </section>
+  );
 }
