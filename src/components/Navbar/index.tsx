@@ -17,7 +17,7 @@ export default function Navbar() {
       <nav id="navigation" className={`${isOpen ? 'block' : 'hidden'} z-1 absolute right-0 h-full md:flex md:static`}>
         <div className="min-w-sm bg-gray-800 py-12 px-8 right-0 h-full">
           <div className="text-white">
-            <h1>Izanderson Florencio</h1>
+            <h1 className="text-sm">Izanderson Florencio</h1>
             <h2 className="font-light">Software Developer</h2>
           </div>
           <ul className="py-12 [&>li>a]:p-2 [&>li>a]:block [&>li>a]:hover:bg-black/15 [&>li>a]:rounded-sm [&>li>a]:ml-[-8] [&>li>a]:mr-[-8]">
