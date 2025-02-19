@@ -5,7 +5,7 @@ interface SectionProps {
 }
 
 export default function Section({ id, className, children }: SectionProps) {
-  const styles = `px-8${className ? ` ${className}` : ''}`;
+  const styles = `px-4 lg:px-8${className ? ` ${className}` : ''}`;
 
   return (
     <section id={id} className={styles}>
