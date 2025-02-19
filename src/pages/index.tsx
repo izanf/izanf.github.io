@@ -13,7 +13,7 @@ export default function Home() {
       </Head>
       <div className="flex h-full">
         <Navbar />
-        <main className="bg-gray-50 overflow-auto">
+        <main className="bg-gray-50 overflow-auto py-4">
           <About />
           {/* <Articles /> */}
           <Projects />
